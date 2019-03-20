@@ -330,5 +330,5 @@ function zemoga_remove_archive_title_prefix( $title ) {
 }
 add_filter( 'get_the_archive_title', 'zemoga_remove_archive_title_prefix' );
 
-// Disable Gutemberg for posts
+// Disable Gutenberg for posts
 add_filter('use_block_editor_for_post', '__return_false', 10);
