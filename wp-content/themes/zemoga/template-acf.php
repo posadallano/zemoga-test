@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page with Content Blocks
+ * Template Name: Zemoga Page - Content Block
  *
  * The template for displaying pages with ACF components.
  *

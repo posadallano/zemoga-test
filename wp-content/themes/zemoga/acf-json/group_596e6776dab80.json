@@ -1,6 +1,6 @@
 {
     "key": "group_596e6776dab80",
-    "title": "Group: Fifty\/Fifty Block — To Clone",
+    "title": "Group: Zemoga custom block — To Clone",
     "fields": [
         {
             "key": "field_59416beff0b0b",
@@ -19,164 +19,91 @@
             "endpoint": 0
         },
         {
-            "key": "field_59089fd63f35f",
-            "label": "Block layout:",
-            "name": "block_layout",
-            "type": "select",
-            "instructions": "Choose which block layout you'd like to use.",
-            "required": 1,
+            "key": "field_5c92bed92bea2",
+            "label": "Image + Caption",
+            "name": "image_plus_caption",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "100",
+                "width": "",
                 "class": "",
                 "id": ""
             },
-            "choices": {
-                "media_text": "Media\/Text",
-                "text_media": "Text\/Media",
-                "text_text": "Text\/Text"
-            },
-            "default_value": [
-                "media_text"
-            ],
-            "allow_null": 0,
-            "multiple": 0,
-            "ui": 0,
-            "ajax": 0,
-            "return_format": "value",
-            "placeholder": ""
-        },
-        {
-            "key": "field_5908a2874dd20",
-            "label": "Left Side Image",
-            "name": "media_left",
-            "type": "image",
-            "instructions": "Add or Upload an image. (640x480px .jpg, .png)",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "media_text"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "jpg, jpeg, png, gif"
-        },
-        {
-            "key": "field_596e6ed60914d",
-            "label": "Text (Primary)",
-            "name": "text_primary",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "media_text"
-                    }
-                ],
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "text_media"
-                    }
-                ],
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "text_text"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_596e6f4409150",
-            "label": "Text (Secondary)",
-            "name": "text_secondary",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "text_text"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_5908a2174dd1d",
-            "label": "Right Side Image",
-            "name": "media_right",
-            "type": "image",
-            "instructions": "Add or Upload an image. (640x480px .jpg, .png)",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_59089fd63f35f",
-                        "operator": "==",
-                        "value": "text_media"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "jpg, jpeg, png, gif"
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add image + caption",
+            "sub_fields": [
+                {
+                    "key": "field_5908a2874dd20",
+                    "label": "Left Side Image",
+                    "name": "media_left",
+                    "type": "image",
+                    "instructions": "Add or Upload an image.",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5c92bed92bea2",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                },
+                {
+                    "key": "field_596e6ed60914d",
+                    "label": "Text",
+                    "name": "text_primary",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                },
+                {
+                    "key": "field_5c92d061b896c",
+                    "label": "Link",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "Please enter the full URL",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
         }
     ],
     "location": [
@@ -196,5 +123,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1521823674
+    "modified": 1553125554
 }
