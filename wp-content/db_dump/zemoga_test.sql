@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-03-2019 a las 01:16:00
+-- Tiempo de generación: 22-03-2019 a las 02:07:26
 -- Versión del servidor: 10.1.25-MariaDB
 -- Versión de PHP: 5.6.31
 
@@ -216,7 +216,7 @@ INSERT INTO `zt_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (108, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (109, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (110, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(111, 'cron', 'a:6:{i:1553213825;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1553246225;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1553289695;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1553289696;a:1:{s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1553289698;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
+(111, 'cron', 'a:6:{i:1553217425;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1553246225;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1553289695;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1553289696;a:1:{s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1553289698;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (112, 'theme_mods_twentynineteen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1553117557;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}}}}', 'yes'),
 (114, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.1.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.1.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.1.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.1.1-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"5.1.1\";s:7:\"version\";s:5:\"5.1.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.0\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1553203059;s:15:\"version_checked\";s:5:\"5.1.1\";s:12:\"translations\";a:0:{}}', 'no'),
 (119, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1553203061;s:7:\"checked\";a:1:{s:6:\"zemoga\";s:5:\"1.0.0\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
@@ -972,48 +972,20 @@ INSERT INTO `zt_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (17, 1, 'zt_dashboard_quick_press_last_post_id', '4'),
 (18, 1, 'zt_user-settings', 'libraryContent=browse&editor=html'),
 (19, 1, 'zt_user-settings-time', '1553192797'),
-(308, 23, 'nickname', 'elias9'),
-(309, 23, 'first_name', 'Elias'),
-(310, 23, 'last_name', 'Cadavid'),
-(311, 23, 'description', ''),
-(312, 23, 'rich_editing', 'true'),
-(313, 23, 'syntax_highlighting', 'true'),
-(314, 23, 'comment_shortcuts', 'false'),
-(315, 23, 'admin_color', 'fresh'),
-(316, 23, 'use_ssl', '0'),
-(317, 23, 'show_admin_bar_front', 'true'),
-(318, 23, 'locale', ''),
-(319, 23, 'zt_capabilities', 'a:1:{s:10:\"subscriber\";b:1;}'),
-(320, 23, 'zt_user_level', '0'),
-(321, 23, 'dismissed_wp_pointers', 'wp496_privacy'),
-(322, 24, 'nickname', 'valdi'),
-(323, 24, 'first_name', 'Vladimir'),
-(324, 24, 'last_name', 'HErnandez'),
-(325, 24, 'description', ''),
-(326, 24, 'rich_editing', 'true'),
-(327, 24, 'syntax_highlighting', 'true'),
-(328, 24, 'comment_shortcuts', 'false'),
-(329, 24, 'admin_color', 'fresh'),
-(330, 24, 'use_ssl', '0'),
-(331, 24, 'show_admin_bar_front', 'true'),
-(332, 24, 'locale', ''),
-(333, 24, 'zt_capabilities', 'a:1:{s:10:\"subscriber\";b:1;}'),
-(334, 24, 'zt_user_level', '0'),
-(335, 24, 'dismissed_wp_pointers', 'wp496_privacy'),
-(336, 25, 'nickname', 'indio'),
-(337, 25, 'first_name', 'Indio'),
-(338, 25, 'last_name', 'Ramirez'),
-(339, 25, 'description', ''),
-(340, 25, 'rich_editing', 'true'),
-(341, 25, 'syntax_highlighting', 'true'),
-(342, 25, 'comment_shortcuts', 'false'),
-(343, 25, 'admin_color', 'fresh'),
-(344, 25, 'use_ssl', '0'),
-(345, 25, 'show_admin_bar_front', 'true'),
-(346, 25, 'locale', ''),
-(347, 25, 'zt_capabilities', 'a:1:{s:10:\"subscriber\";b:1;}'),
-(348, 25, 'zt_user_level', '0'),
-(349, 25, 'dismissed_wp_pointers', 'wp496_privacy');
+(350, 26, 'nickname', 'zemgtest'),
+(351, 26, 'first_name', 'Zemoga'),
+(352, 26, 'last_name', 'Lastname'),
+(353, 26, 'description', ''),
+(354, 26, 'rich_editing', 'true'),
+(355, 26, 'syntax_highlighting', 'true'),
+(356, 26, 'comment_shortcuts', 'false'),
+(357, 26, 'admin_color', 'fresh'),
+(358, 26, 'use_ssl', '0'),
+(359, 26, 'show_admin_bar_front', 'true'),
+(360, 26, 'locale', ''),
+(361, 26, 'zt_capabilities', 'a:1:{s:10:\"subscriber\";b:1;}'),
+(362, 26, 'zt_user_level', '0'),
+(363, 26, 'dismissed_wp_pointers', 'wp496_privacy');
 
 -- --------------------------------------------------------
 
@@ -1040,9 +1012,7 @@ CREATE TABLE `zt_users` (
 
 INSERT INTO `zt_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'zmgusn', '$P$BmiYUqPJhlWvTgubjeDXiWr10.Saxw/', 'zmgusn', 'posadallano2@gmail.com', '', '2019-03-20 21:16:53', '', 0, 'zmgusn'),
-(23, 'elias9', '$P$B0bL3DP.YmRIXOk9Fbv8TTIiqlZzFm/', 'elias9', 'elias932@gmail.com', '', '2019-03-22 00:02:55', '', 0, 'Elias Cadavid'),
-(24, 'valdi', '$P$Bp1OIIZYcwsP1ZG4qLLsrRD8SsN4P..', 'valdi', 'clais@mail.com', '', '2019-03-22 00:03:38', '', 0, 'Vladimir HErnandez'),
-(25, 'indio', '$P$B5OXR89Xs0BYh9fv/6J1mKA9BTvKpk0', 'indio', 'indior@gmail.com', '', '2019-03-22 00:04:08', '', 0, 'Indio Ramirez');
+(26, 'zemgtest', '$P$BmpX22Qzx4VVneeElVr25TDLw9pyOG0', 'zemgtest', 'zmtgt@gmail.com', '', '2019-03-22 01:07:02', '', 0, 'Zemoga Lastname');
 
 --
 -- Índices para tablas volcadas
@@ -1170,7 +1140,7 @@ ALTER TABLE `zt_links`
 -- AUTO_INCREMENT de la tabla `zt_options`
 --
 ALTER TABLE `zt_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=196;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=197;
 --
 -- AUTO_INCREMENT de la tabla `zt_postmeta`
 --
@@ -1200,12 +1170,12 @@ ALTER TABLE `zt_term_taxonomy`
 -- AUTO_INCREMENT de la tabla `zt_usermeta`
 --
 ALTER TABLE `zt_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=350;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=364;
 --
 -- AUTO_INCREMENT de la tabla `zt_users`
 --
 ALTER TABLE `zt_users`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;COMMIT;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
